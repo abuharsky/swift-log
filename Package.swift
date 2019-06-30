@@ -25,9 +25,5 @@ let package = Package(
             name: "LoggingRenamed",
             dependencies: []
         ),
-        .testTarget(
-            name: "LoggingRenamedTests",
-            dependencies: ["LoggingRenamed"]
-        ),
     ]
 )
